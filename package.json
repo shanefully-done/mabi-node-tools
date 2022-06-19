@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "find-process": "^1.4.7",
+    "tcp-ping": "^0.1.1"
+  },
+  "name": "node.js-tools",
+  "version": "1.0.0",
+  "description": "A collections of Node.js tools",
+  "main": "clientCheck.js",
+  "devDependencies": {},
+  "scripts": {},
+  "author": "",
+  "license": "MIT"
+}
