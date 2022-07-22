@@ -2,6 +2,8 @@
   "dependencies": {
     "cap": "^0.2.1",
     "find-process": "^1.4.7",
+    "iconv-lite": "^0.6.3",
+    "jschardet": "^3.0.0",
     "tcp-ping": "^0.1.1"
   },
   "name": "node.js-tools",

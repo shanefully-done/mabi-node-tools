@@ -34,8 +34,12 @@ c.on("packet", function (nbytes, trunc) {
 				let minutes = ("0" + currDate.getMinutes()).slice(-2)
 				let seconds = ("0" + currDate.getSeconds()).slice(-2)
 
+				if (rcvStr.includes("F8")) {
+					console.log(rcvStr)
+				}
+
 				// console.log(retRaw)
-				console.log(rcvStr.replace(/\u6F.*/g, ""))
+				// console.log(rcvStr.replace(/\u6F.*/g, ""))
 
 				// console.log(jschardet.detect(ret.offset))
 				// console.log(buffer.toString("utf8", datalen))
